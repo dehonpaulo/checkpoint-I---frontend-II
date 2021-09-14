@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de polaroid</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <h1 id="logo">Gerador de Polaroid</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="formulario-card">
+                <form>
+                    <fieldset>
+                        <legend>Gerador de Polaroid</legend>
+                        
+                        <input id="legenda" type="text" placeholder="Digite sua legenda">
+                        <input id="data" type="date">
+                        <input id="descricao" type="text" placeholder="Breve descrição da imagem">
+                        <input id="url-img" type="text" placeholder="URL da imagem">            
+                    </fieldset>
+                    <input type="submit" id="botao-adicionar" value="Adicionar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div id="formulario-contato">
+            <form>
+                <h3>Contato</h3>
+
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome-contato">
+
+                <label for="email">Email</label>
+                <input type="email" id="email-contato">
+
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular-contato">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem-contato" cols="30" rows="10"></textarea>
+
+                <input id="enviar-contato" type="submit" value="Enviar">
+
+            </form>
+        </div>
+    </aside>
+    <footer id="rodape">
+        <button id="botao-contato">Entrar em contato</button>
+    </footer>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
